@@ -5,7 +5,7 @@
     height: 70px;
 }
 
-.booleaner img{
+.booleaner img {
     height: 30px;
     margin-top: 40px;
     margin-left: 80px;
@@ -16,31 +16,51 @@ main {
     margin-right: 80px;
 }
 
-span.scrittori{
+span.scrittori {
 
-    color:aqua
+    color: aqua
 }
 
-.data{
+.data {
 
-    font-size:smaller;
+    font-size: smaller;
     margin-top: 0px;
-    color:gray;
+    color: gray;
 }
 
-.author{
+.author {
 
     margin-bottom: 1px;
     margin-top: 1px;
-    color:gray;
+    color: gray;
 }
- h1{
+
+h1 {
 
     margin-bottom: 1px;
- }
+}
 
- .descrizione-foto{
+.descrizione-foto {
     margin-top: 1px;
     margin-bottom: 1px;
     font-size: small;
- }
+}
+
+.evidenziare {
+    background-color: yellow
+}
+
+#tabella-testa th{
+    color: white;
+    background-color: steelblue;
+    width: 33%;
+    text-align:left;
+}
+
+.celle-con-sfondo{
+    background-color: skyblue;
+}
+
+.tabella{
+    border-spacing: 0px;
+}
