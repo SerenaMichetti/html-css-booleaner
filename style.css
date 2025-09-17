@@ -50,17 +50,46 @@ h1 {
     background-color: yellow
 }
 
-#tabella-testa th{
+#tabella-testa th {
     color: white;
     background-color: steelblue;
     width: 33%;
-    text-align:left;
+    text-align: left;
 }
 
-.celle-con-sfondo{
+.celle-con-sfondo {
     background-color: skyblue;
 }
 
-.tabella{
+.tabella {
     border-spacing: 0px;
+}
+
+footer {
+    margin-left: 80px;
+    margin-right: 80px;
+    text-align: left;
+}
+
+.testo-finale{
+    margin-top: 30px;
+    color:gray;
+}
+
+.monitor{
+    background-image: url("./img/monitor.jpg");
+    
+}
+
+.graph{
+    background-image: url("./img/graph.jpg");
+}
+
+.small-img{
+    width: 245px;
+    height: 160px;
+    color:white;
+    font-size: larger;
+    margin-bottom: 10px;
+    padding: 10px;
 }
